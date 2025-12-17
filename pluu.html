@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trusted Plumbing Services | Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-white text-gray-800">
+
+<!-- HERO -->
+<section class="relative h-[90vh] flex items-center">
+  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="absolute inset-0 w-full h-full object-cover" />
+  <div class="absolute inset-0 bg-blue-900/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-6 text-white">
+    <h1 class="text-4xl md:text-5xl font-bold">Trusted Plumbing Services</h1>
+    <p class="mt-4 text-lg">Fast, Reliable & Affordable – 24×7 Available</p>
+
+    <div class="mt-6 flex gap-4 flex-wrap">
+      <a href="tel:+910000000000" class="bg-blue-600 hover:bg-blue-700 px-6 py-4 rounded-xl font-semibold text-lg"><i class="fa fa-phone"></i> Call Now</a>
+      <a href="https://wa.me/910000000000" class="border-2 border-green-400 text-green-300 hover:bg-green-500 hover:text-white px-6 py-4 rounded-xl font-semibold text-lg"><i class="fa-brands fa-whatsapp"></i> WhatsApp Booking</a>
+    </div>
+
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+      <div class="bg-white/10 p-4 rounded-xl">✔ 24×7 Service</div>
+      <div class="bg-white/10 p-4 rounded-xl">✔ Experienced Plumber</div>
+      <div class="bg-white/10 p-4 rounded-xl">✔ Fast Response</div>
+      <div class="bg-white/10 p-4 rounded-xl">✔ Pay After Service</div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP & REVIEWS -->
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="rounded-2xl overflow-hidden shadow-lg">
+      <iframe class="w-full h-80" src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold mb-4">Rated 4.8★ by Local Customers on Google</h2>
+      <div class="space-y-4">
+        <div class="bg-white p-4 rounded-xl shadow"><strong>Rahul S.</strong> ⭐⭐⭐⭐⭐<p>Quick response and professional work.</p></div>
+        <div class="bg-white p-4 rounded-xl shadow"><strong>Anita M.</strong> ⭐⭐⭐⭐⭐<p>Affordable and very polite plumber.</p></div>
+        <div class="bg-white p-4 rounded-xl shadow"><strong>Vikas P.</strong> ⭐⭐⭐⭐⭐<p>Same-day service, highly recommended.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="bg-gray-50 py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Plumbing Services</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <script>
+        const services = [
+          'Tap & Faucet Repair','Bathroom & Toilet Plumbing','Pipe Leakage Repair','Water Tank & Motor Repair','Kitchen Sink Plumbing','Drain Cleaning','Emergency Plumbing','General Plumbing'
+        ];
+        document.write(services.map(s => `
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:-translate-y-1 transition">
+            <h3 class="font-semibold text-lg mb-2">${s}</h3>
+            <p class="text-sm mb-4">Professional & reliable service.</p>
+            <div class="flex gap-2">
+              <a href="tel:+910000000000" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Call</a>
+              <a href="https://wa.me/910000000000?text=Hi%2C%20I%20need%20plumbing%20service.%20Category%3A%20${encodeURIComponent(s)}" class="bg-green-500 text-white px-4 py-2 rounded-lg">WhatsApp</a>
+            </div>
+          </div>`).join(''));
+      </script>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-center mb-10">How Booking Works</h2>
+  <div class="grid md:grid-cols-3 gap-6 text-center">
+    <div class="bg-white p-6 rounded-xl shadow">🔧 Choose Service</div>
+    <div class="bg-white p-6 rounded-xl shadow">📞 Call or WhatsApp</div>
+    <div class="bg-white p-6 rounded-xl shadow">🚚 Fast Service</div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="relative py-20 text-white">
+  <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" class="absolute inset-0 w-full h-full object-cover" />
+  <div class="absolute inset-0 bg-blue-900/80"></div>
+  <div class="relative z-10 max-w-4xl mx-auto text-center px-6">
+    <h2 class="text-3xl font-bold mb-4">One‑Click Booking – Available 24×7</h2>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="tel:+910000000000" class="bg-blue-600 px-6 py-4 rounded-xl text-lg">Call Now</a>
+      <a href="https://wa.me/910000000000" class="bg-green-500 px-6 py-4 rounded-xl text-lg">WhatsApp Booking</a>
+    </div>
+    <p class="mt-4">Email: demo@plumbingservice.com</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-blue-950 text-white py-8 text-center">
+  <p class="font-semibold">Demo Plumbing Services – Local Area</p>
+  <p class="text-sm mt-2">© 2025 Plumbing Demo Website</p>
+</footer>
+
+</body>
+</html>
